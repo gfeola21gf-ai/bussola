@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- index.html — il guscio: le schermate le disegna app.js dentro #app. -->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <title>Bussola</title>
+  <meta name="theme-color" content="#FAF7F1">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icona.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icona-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Bussola">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261031181718">
+  <link rel="stylesheet" href="stile4.css?v=20261031181718">
+</head>
+<body>
+  <div id="app"><p class="caricamento">Caricamento…</p></div>
+  <div id="menu" hidden></div>
+  <div id="foglio" hidden></div>
+  <div id="pf-foglio" hidden></div>
+  <div id="rp-foglio" hidden></div>
+  <div id="ps-foglio" hidden></div>
+  <div id="rp-menu" hidden></div>
+  <div id="rp-barra" hidden></div>
+  <div id="avviso" role="status" hidden></div>
+  <noscript>Serve JavaScript attivo.</noscript>
+  <script type="module" src="app.js?v=20261031181718"></script>
+</body>
+</html>
